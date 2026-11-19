@@ -1,3 +1,4 @@
+
 # NEXORA — Productivity Workspace
 
 A modern, responsive productivity workspace built with React to help users organize projects, manage tasks, plan schedules, capture notes, and track productivity from one place.
@@ -105,6 +106,9 @@ NEXORA currently uses browser LocalStorage for data persistence.
 ```text
 nexora/
 ├── public/
+├── screenshots/
+│   ├── dashboard.png
+│   └── projects.png
 ├── src/
 │   ├── assets/
 │   ├── components/
@@ -128,7 +132,23 @@ nexora/
 
 ## Screenshots
 
-Screenshots of the application will be added here.
+### Dashboard
+![NEXORA Dashboard](./screenshots/dashboard.png)
+
+### Projects
+![NEXORA Projects](./screenshots/projects.png)
+
+### Tasks
+![NEXORA Tasks](./screenshots/tasks.png)
+
+### Calendar
+![NEXORA Calendar](./screenshots/calendar.png)
+
+### Notes
+![NEXORA Notes](./screenshots/notes.png)
+
+### Analytics
+![NEXORA Analytics](./screenshots/analytics.png)
 
 ## Future Improvements
 
