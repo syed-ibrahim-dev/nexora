@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+:root {
+  /* 60% - Primary colour */
+  --bg-primary: #0B1020;
+
+  /* 30% - Secondary colour */
+  --bg-secondary: #252D45;
+  --bg-card: rgba(37, 45, 69, 0.58);
+  --bg-card-hover: rgba(48, 57, 85, 0.78);
+
+  /* 10% - Accent colour */
+  --accent-primary: #A78BFA;
+  --accent-secondary: #55E6FF;
+
+  /* Text colours */
+  --text-primary: #F4F5FA;
+  --text-secondary: #929BB3;
+  --text-muted: #69748E;
+
+  /* Borders and effects */
+  --border-color: rgba(255, 255, 255, 0.08);
+  --purple-glow: rgba(167, 139, 250, 0.22);
+  --cyan-glow: rgba(85, 230, 255, 0.12);
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #A78BFA, #7C5CFA);
+  --gradient-secondary: linear-gradient(135deg, #55E6FF, #A78BFA);
+
+  /* Layout */
+  --sidebar-width: 260px;
+  --topbar-height: 82px;
+
+  /* Radius */
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 22px;
+
+  /* Shadows */
+  --shadow-card: 0 15px 45px rgba(0, 0, 0, 0.2);
+  --shadow-glow: 0 0 35px rgba(167, 139, 250, 0.15);
+
+  /* Transitions */
+  --transition: 0.3s ease;
+}
+
+/* Global light theme */
+:root[data-theme="light"] {
+  --bg-primary: #F3F5FB;
+  --bg-secondary: #FFFFFF;
+  --bg-card: rgba(255, 255, 255, 0.88);
+  --bg-card-hover: #FFFFFF;
+
+  --text-primary: #182033;
+  --text-secondary: #59647A;
+  --text-muted: #7D879A;
+
+  --border-color: rgba(25, 35, 55, 0.12);
+
+  --purple-glow: rgba(124, 92, 250, 0.10);
+  --cyan-glow: rgba(8, 145, 178, 0.08);
+
+  --shadow-card: 0 12px 35px rgba(35, 45, 70, 0.08);
+  --shadow-glow: 0 0 30px rgba(124, 92, 250, 0.08);
+}
