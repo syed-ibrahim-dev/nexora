@@ -144,7 +144,7 @@ Screenshots of the application will be added here.
 ## Links
 
 - **GitHub Repository:** https://github.com/syed-ibrahim-dev/nexora
-- **Live Demo:** Coming soon
+- **Live Demo:** https://nexora-6iplpwf3t-ibbu3.vercel.app/
 
 ---
 
